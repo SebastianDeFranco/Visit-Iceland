@@ -8,4 +8,4 @@ const Footer = () => {
   )
 }
 
-export default FondoFinal
+export default Footer
