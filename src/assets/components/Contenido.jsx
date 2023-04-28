@@ -1,5 +1,5 @@
 import React from 'react'
-import { item } from '../../../InfoItems'
+import { item } from '../../InfoItems'
 
 const Contenido = ({ item }) => {
   const { id, img, name, description } = item

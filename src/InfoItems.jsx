@@ -1,6 +1,6 @@
-import food from './public/food.jpg'
-import landscape from './public/landscape.jpg'
-import culture from './public/culture.jpg'
+import food from '../public/food.jpg'
+import landscape from '../public/landscape.jpg'
+import culture from '../public/culture.jpg'
 
 export const item = [
   {

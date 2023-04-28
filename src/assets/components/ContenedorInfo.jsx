@@ -1,5 +1,5 @@
 import React from 'react'
-import { item } from '../../../InfoItems'
+import { item } from '../../InfoItems'
 import Contenido from './Contenido'
 
 const ContenedorInfo = () => {
