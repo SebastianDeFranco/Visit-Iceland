@@ -17,7 +17,7 @@ const Contenido = ({ item }) => {
         </div>
       </div>
     </div>
-  )
+  ) 
 }
 
 export default Contenido

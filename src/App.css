@@ -185,41 +185,9 @@ header nav ul li .link:hover{
 
 
 
-/* Celular */
-@media (max-width:480px){
-  .banner{
-    width: 540px;
-  }
-  .contenido h1{
-    text-align: left;
-    margin-left: 55px;
-  }
 
-  .info{
-    font-size: 1rem;
-  }
-
-  .info-texto{
-    width: 100%;
-  }
-  #section2{
-    flex-direction: row-reverse;
-  }
-  .info-card .info-img img{
-    width: 300px;
-  }
-}
 
 /* Medianos */
-
-@media (max-width:900px){
-  .info-card{
-    padding: 5px;
-  }
-  .info-texto{
-    width: 50%;
-  }
-}
 
 @media (max-width:1500px){
   .info-texto .info-texto__titulo{
@@ -241,4 +209,40 @@ header nav ul li .link:hover{
     height: 45px;
   }
 
+}
+
+@media (max-width:900px){
+  .info-card{
+    padding: 5px;
+  }
+  .info-texto{
+    width: 50%;
+  }
+  .banner{
+    height: 50vh;
+  }
+}
+
+
+
+/* Celular */
+@media (max-width:480px){
+  .contenido h1{
+    text-align: left;
+    margin-left: 55px;
+  }
+
+  .info{
+    font-size: 1rem;
+  }
+
+  .info-texto{
+    width: 100%;
+  }
+  #section2{
+    flex-direction: row-reverse;
+  }
+  .info-card .info-img img{
+    width: 300px;
+  }
 }
